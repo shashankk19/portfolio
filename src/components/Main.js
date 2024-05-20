@@ -28,13 +28,14 @@ function Main() {
             <Typewriter />
           </div>
           <p className="dark:text-[#ccc] text-justify leading-loose pt-5 font-[400] mt-[-.8rem] text-custom-18 sm:text-[1rem] w-[90%] md:w-[95%] tm:w-full sm:w-full sm:mt-0">
-            Currently pursuing my Masters in Computer Science at the University
-            of Missouri-Kansas City, I am eager to leverage my skills in Spring
-            Boot, ReactJS, and Node.js to create impactful software solutions.
-            With a strong foundation in algorithms and data structures, I
-            approach coding challenges with enthusiasm and a growth mindset.
-            Explore my projects and experience to discover how I can contribute
-            to your team!
+            Graduated with a Masters in Computer Science from the University of
+            Missouri-Kansas City, I bring 3 years of software development
+            experience. Skilled in Spring Boot, ReactJS, and Node.js, I have
+            developed full-stack applications, implemented microservices,
+            optimized SQL Server operations, and created RESTful APIs. With a
+            strong foundation in algorithms and data structures, I approach
+            coding challenges with enthusiasm and a growth mindset. Explore my
+            projects and experience to see how I can contribute to your team!
           </p>
           <div className="flex justify-start mt-5 mb-8">
             <button className="px-[1.6em] py-[.8em] bg-[#e9ba22] coursor-pointer rounded-[4px] flex justify-start items-center gap-1 border-[#e9ba22] border-2 lg:text-[.8rem] sm:text-[.8rem]">

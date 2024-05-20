@@ -2,20 +2,33 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion"; // Animation library
 
 import { DiPython, DiJava, DiGit, DiMysql } from "react-icons/di"; // Assuming icons from ai set
-import { FaDocker, FaCode, FaAws, FaHtml5 } from "react-icons/fa";
-import { SiSpringboot, SiTailwindcss } from "react-icons/si";
-import { DiMongodb, DiJavascript } from "react-icons/di";
+import { FaDocker, FaCode, FaAws, FaHtml5, FaJenkins } from "react-icons/fa";
+import {
+  SiSpringboot,
+  SiTailwindcss,
+  SiKubernetes,
+  SiApachekafka,
+} from "react-icons/si";
+import { DiMongodb, DiJavascript, DiRedis } from "react-icons/di";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { IoLogoFirebase } from "react-icons/io5";
 
 const skillsData = [
   { name: "Data Structures", icon: <FaCode />, progress: 90 },
   { name: "Python", icon: <DiPython />, progress: 75 },
   { name: "Java", icon: <DiJava />, progress: 65 },
+  { name: "Javascript", icon: <DiJavascript />, progress: 90 },
   { name: "SpringBoot", icon: <SiSpringboot />, progress: 90 },
   { name: "MySQL", icon: <DiMysql />, progress: 90 },
+  { name: "PostgreSQL", icon: <BiLogoPostgresql />, progress: 90 },
   { name: "MongoDB", icon: <DiMongodb />, progress: 90 },
-  { name: "Javascript", icon: <DiJavascript />, progress: 90 },
+  { name: "Firebase", icon: <IoLogoFirebase />, progress: 90 },
+  { name: "Redis", icon: <DiRedis />, progress: 90 },
+  { name: "Kafka", icon: <SiApachekafka />, progress: 90 },
   { name: "Git", icon: <DiGit />, progress: 80 },
   { name: "Docker", icon: <FaDocker />, progress: 90 },
+  { name: "Kubernetes", icon: <SiKubernetes />, progress: 90 },
+  { name: "Jenkins", icon: <FaJenkins />, progress: 90 },
   { name: "AWS", icon: <FaAws />, progress: 90 },
   { name: "HTML", icon: <FaHtml5 />, progress: 90 },
   { name: "Tailwind CSS", icon: <SiTailwindcss />, progress: 90 },
