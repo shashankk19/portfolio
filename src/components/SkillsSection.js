@@ -13,6 +13,7 @@ const skillsData = [
   { name: "SpringBoot", icon: <SiSpringboot />, progress: 90 },
   { name: "MySQL", icon: <DiMysql />, progress: 90 },
   { name: "MongoDB", icon: <DiMongodb />, progress: 90 },
+  { name: "Firebase", icon: <IoLogoFirebase />, progress: 90 },
   { name: "Javascript", icon: <DiJavascript />, progress: 90 },
   { name: "Git", icon: <DiGit />, progress: 80 },
   { name: "Docker", icon: <FaDocker />, progress: 90 },
