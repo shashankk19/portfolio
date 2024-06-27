@@ -63,7 +63,7 @@ function Main() {
           <div className="flex flex-row sm:flex-col gap-4">
             <a
               rel="noreferrer"
-              href="https://www.linkedin.com/in/sai-shashank-akkapelli"
+              href="https://www.linkedin.com/in/sai-shashank-akkapelli1"
               target="_blank"
             >
               <AiFillLinkedin size={40} className="cursor-pointer" />
