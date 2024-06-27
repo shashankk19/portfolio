@@ -1,17 +1,24 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const Typewriter = () => {
   const strings = [
-    'Full Stack Developer',
-    'Software Engineer',
-    'ReactJS',
-    'NodeJS',
-    'ExpressJS',
-    'SpringBoot',
-    'MySQL',
+    "Full Stack Developer",
+    "Java",
+    "Spring",
+    "React",
+    "Angular",
+    "RESTful APIs",
+    "Microservices",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "MySQL",
+    "CI/CD",
+    "Security",
+    "Testing",
   ];
   const [currentStringIndex, setCurrentStringIndex] = useState(0);
-  const [currentString, setCurrentString] = useState('');
+  const [currentString, setCurrentString] = useState("");
   const [isTyping, setIsTyping] = useState(true);
 
   useEffect(() => {
@@ -22,13 +29,15 @@ const Typewriter = () => {
         }, 500); // Adjust the pause duration before erasing (in milliseconds)
       } else {
         const timeout = setTimeout(() => {
-          setCurrentString(strings[currentStringIndex].slice(0, currentString.length + 1));
+          setCurrentString(
+            strings[currentStringIndex].slice(0, currentString.length + 1)
+          );
         }, 100); // Adjust the typing speed here (in milliseconds)
 
         return () => clearTimeout(timeout);
       }
     } else {
-      if (currentString === '') {
+      if (currentString === "") {
         setCurrentStringIndex((prevIndex) => (prevIndex + 1) % strings.length);
         setIsTyping(true);
       } else {

@@ -41,7 +41,7 @@ function Main() {
             <button className="px-[1.6em] py-[.8em] bg-[#e9ba22] coursor-pointer rounded-[4px] flex justify-start items-center gap-1 border-[#e9ba22] border-2 lg:text-[.8rem] sm:text-[.8rem]">
               <a
                 className="text-white font-bold font-sans font-[400]"
-                href="https://drive.google.com/file/d/1Yc5Y51qo5EFBvq72PCSY5loER7itKtaw/view?usp=sharing"
+                href="https://drive.google.com/file/d/1l3-Thn_HdvKvtuJGw4Ni0b_3xbGER24d/view?usp=sharing"
                 target="blank"
                 download="my_cv.pdf"
               >
