@@ -23,8 +23,12 @@ const skillsData = [
   { name: "PostgreSQL", icon: <BiLogoPostgresql />, progress: 90 },
   { name: "MongoDB", icon: <DiMongodb />, progress: 90 },
   { name: "Firebase", icon: <IoLogoFirebase />, progress: 90 },
+<<<<<<< HEAD
   { name: "Redis", icon: <DiRedis />, progress: 90 },
   { name: "Kafka", icon: <SiApachekafka />, progress: 90 },
+=======
+  { name: "Javascript", icon: <DiJavascript />, progress: 90 },
+>>>>>>> 586d91fa7bdfd31f9a3512339c75e252b2d35d9c
   { name: "Git", icon: <DiGit />, progress: 80 },
   { name: "Docker", icon: <FaDocker />, progress: 90 },
   { name: "Kubernetes", icon: <SiKubernetes />, progress: 90 },
