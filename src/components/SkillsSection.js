@@ -2,7 +2,18 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion"; // Animation library
 
 import { DiPython, DiJava, DiGit, DiMysql } from "react-icons/di"; // Assuming icons from ai set
-import { FaDocker, FaCode, FaAws, FaHtml5, FaJenkins } from "react-icons/fa";
+import {
+  FaDocker,
+  FaCode,
+  FaAws,
+  FaHtml5,
+  FaJenkins,
+  FaLinux,
+  FaJira,
+  FaSlack,
+} from "react-icons/fa";
+import { GrGraphQl } from "react-icons/gr";
+
 import {
   SiSpringboot,
   SiTailwindcss,
@@ -15,26 +26,25 @@ import { IoLogoFirebase } from "react-icons/io5";
 
 const skillsData = [
   { name: "Data Structures", icon: <FaCode />, progress: 90 },
-  { name: "Python", icon: <DiPython />, progress: 75 },
-  { name: "Java", icon: <DiJava />, progress: 65 },
+  { name: "Python", icon: <DiPython />, progress: 90 },
+  { name: "Java", icon: <DiJava />, progress: 90 },
   { name: "Javascript", icon: <DiJavascript />, progress: 90 },
   { name: "SpringBoot", icon: <SiSpringboot />, progress: 90 },
   { name: "MySQL", icon: <DiMysql />, progress: 90 },
   { name: "PostgreSQL", icon: <BiLogoPostgresql />, progress: 90 },
   { name: "MongoDB", icon: <DiMongodb />, progress: 90 },
   { name: "Firebase", icon: <IoLogoFirebase />, progress: 90 },
-<<<<<<< HEAD
   { name: "Redis", icon: <DiRedis />, progress: 90 },
   { name: "Kafka", icon: <SiApachekafka />, progress: 90 },
-=======
-  { name: "Javascript", icon: <DiJavascript />, progress: 90 },
->>>>>>> 586d91fa7bdfd31f9a3512339c75e252b2d35d9c
+  { name: "GraphQL", icon: <GrGraphQl />, progress: 90 },
+  { name: "Linux", icon: <FaLinux />, progress: 90 },
   { name: "Git", icon: <DiGit />, progress: 80 },
   { name: "Docker", icon: <FaDocker />, progress: 90 },
   { name: "Kubernetes", icon: <SiKubernetes />, progress: 90 },
   { name: "Jenkins", icon: <FaJenkins />, progress: 90 },
   { name: "AWS", icon: <FaAws />, progress: 90 },
-  { name: "HTML", icon: <FaHtml5 />, progress: 90 },
+  { name: "Jira", icon: <FaJira />, progress: 90 },
+  { name: "Slack", icon: <FaSlack />, progress: 90 },
   { name: "Tailwind CSS", icon: <SiTailwindcss />, progress: 90 },
 ];
 

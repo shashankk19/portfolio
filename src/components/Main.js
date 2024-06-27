@@ -28,20 +28,18 @@ function Main() {
             <Typewriter />
           </div>
           <p className="dark:text-[#ccc] text-justify leading-loose pt-5 font-[400] mt-[-.8rem] text-custom-18 sm:text-[1rem] w-[90%] md:w-[95%] tm:w-full sm:w-full sm:mt-0">
-            Graduated with a Masters in Computer Science from the University of
-            Missouri-Kansas City, I bring 3 years of software development
-            experience. Skilled in Spring Boot, ReactJS, and Node.js, I have
-            developed full-stack applications, implemented microservices,
-            optimized SQL Server operations, and created RESTful APIs. With a
-            strong foundation in algorithms and data structures, I approach
-            coding challenges with enthusiasm and a growth mindset. Explore my
-            projects and experience to see how I can contribute to your team!
+            Full-stack Java developer with 8+ years of experience in building
+            scalable, high-performance applications in finance, hospitality, and
+            e-commerce. Skilled in microservices architecture, database
+            optimization, and secure data transmission. Proficient in Agile
+            methodologies, TDD, and AWS deployment. Strong problem-solving
+            abilities with 420+ LeetCode solutions.
           </p>
           <div className="flex justify-start mt-5 mb-8">
             <button className="px-[1.6em] py-[.8em] bg-[#e9ba22] coursor-pointer rounded-[4px] flex justify-start items-center gap-1 border-[#e9ba22] border-2 lg:text-[.8rem] sm:text-[.8rem]">
               <a
                 className="text-white font-bold font-sans font-[400]"
-                href="https://drive.google.com/file/d/1l3-Thn_HdvKvtuJGw4Ni0b_3xbGER24d/view?usp=sharing"
+                href="https://drive.google.com/file/d/10lxo5OdfVmn7hBugEIawMtrqPWuVSYc2/view?usp=sharing"
                 target="blank"
                 download="my_cv.pdf"
               >

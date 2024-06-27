@@ -14,8 +14,6 @@ const Typewriter = () => {
     "AWS",
     "MySQL",
     "CI/CD",
-    "Security",
-    "Testing",
   ];
   const [currentStringIndex, setCurrentStringIndex] = useState(0);
   const [currentString, setCurrentString] = useState("");
